@@ -2,6 +2,8 @@
    color: maroon;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    font-style: italic;
+   background-color: antiquewhite;
+   border: 2px;
 }
 
 .choresHeading {
