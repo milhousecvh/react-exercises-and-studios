@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <ChoresList />
       <div className="similarComponents">
-      <MovieList />
+      <MovieList /> 
       <BookList />
       <HobbyLinks />
       </div>

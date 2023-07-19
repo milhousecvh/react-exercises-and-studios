@@ -19,12 +19,9 @@ const listItem = oceans.map(ocean  =>
 function Profile()
 {
    return(
-      <>
       <ul>
          {listItem}
-         
       </ul>
-      </>  
    );
 }
 
