@@ -1,13 +1,13 @@
 import data from './../data.json';
 import {useState} from 'react';
 
-export default MyPlants() {
+export default function MyProjects(){
     const [index, setIndex] = useState(0);
-    let plants = data.plants;
-    let plant = plants[index];
+    let projects = data.projects;
+    let project = projects[index];
 
     function handleClick() {
-        if (index < data.plants.length-1)
+        if (index < data.projects.length-1)
         {
             setIndex(index + 1);
         }
@@ -17,19 +17,12 @@ export default MyPlants() {
         }
     }
 
-function flowering() {
-    if (plant.flowers === true) {
-        return "a blooming plant";
-    } else {
-        return "does not bloom";
-    }
-}
 
     return(
         <div>
         <button onClick={handleClick}>Next</button>
-        <h3>{project.commonName} aka {project.scientificName}</h3>
-        <h3><flowering /></h3>
+        <h3>{project.commonName} aka {project.scientificName}
+        <br />This is a {project.flowers} plant.</h3>
         <img src={project.photoUrl} alt={project.commonName} />
         </div>
     );
