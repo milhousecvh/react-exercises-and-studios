@@ -1,0 +1,27 @@
+{"projects": [{
+    "commonName": "Peace Lily",
+    "scientificName": "Spathiphyllum wallisii",
+    "flowers": true,
+    "photoUrl": "https://www.plantsrescue.com/userdata/images_editor/articles/spathiphyllum-wallisii.jpg"
+},{
+    "commonName": "Garden Croton",
+    "scientificName": "Codiaeum variegatum",
+    "flowers": false,
+    "photoUrl": "https://s3.amazonaws.com/eit-planttoolbox-prod/media/images/Codiaeum_variegatum__AyTvNf9LwDwE.jfif"
+},{
+    "commonName" : "Beefsteak Begonia",
+    "scientificName": "Begonia Erthrophylla",
+    "flowers": true,
+    "photoUrl": "https://garden.org/pics/2019-10-06/yowie/0d6a72.jpg"
+},{
+    "commonName": "Chelsea",
+    "scientificName": "Hoya carnosa",
+    "flowers": false,
+    "photoUrl": "https://media.greg.app/Y2FyZS1wbGFudC1wcm9maWxlL2NoZWxzZWFfaG95YS5qcGc=?auto=webp&width=1000&fit=cover&format=pjpg&height=1000&optimize=medium&precrop=1000:1000,smart"
+},{
+    "commonName": "Queen of the Night",
+    "scientificName": "Epiphyllum Oxypetalum",
+    "flowers": true,
+    "photoUrl": "https://toptropicals.com/pics/garden/17/6/20170628_225341.jpg"
+}]
+}
