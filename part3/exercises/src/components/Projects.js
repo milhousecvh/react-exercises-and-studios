@@ -17,9 +17,9 @@ export default MyProjects() {
         }
     }
 
-function flowering(project) {
-    if ({project.flowers} === true) {
-        return a blooming plant";
+function flowering() {
+    if (project.flowers === true) {
+        return "a blooming plant";
     } else {
         return "does not bloom";
     }
